@@ -9,3 +9,4 @@ mongoose.connect('mongodb://localhost:27017/EmployeeDB', {useNewUrlParser:true},
     console.log('MongoDB connection unsuccessful' + err)
   }
 })
+require('./employees.model')
